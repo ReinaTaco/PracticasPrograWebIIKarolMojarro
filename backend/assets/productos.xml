@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<productos>
+  <producto>
+    <id>200001</id>
+    <nombre>Laptop</nombre>
+    <precio>1500</precio>
+    <cantidad>10</cantidad>
+    <imagen>assets/laptop.jpg</imagen>
+  </producto>
+  <producto>
+    <id>200002</id>
+    <nombre>Smartphone</nombre>
+    <precio>1000</precio>
+    <cantidad>5</cantidad>
+    <imagen>assets/smartphone.jpg</imagen>
+  </producto>
+  <producto>
+    <id>200003</id>
+    <nombre>Tablet</nombre>
+    <precio>800</precio>
+    <cantidad>8</cantidad>
+    <imagen>assets/tablet.jpg</imagen>
+  </producto>
+</productos>

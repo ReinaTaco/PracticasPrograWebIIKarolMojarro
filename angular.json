@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "TestLeoBuenasTardes": {
+    "PracticasWebKarolMojarro": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/test-leo-buenas-tardes",
+            "outputPath": "dist/PracticasWebKarolMojarro",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -21,20 +21,18 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              "src/assets",
               {
-                "glob": "**/*",
+                  "glob": "**/*",
                 "input": "public"
               }
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+            "scripts": []
+            
+            
           },
           "configurations": {
             "production": {
@@ -64,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "TestLeoBuenasTardes:build:production"
+              "buildTarget": "PracticasWebKarolMojarro:build:production"
             },
             "development": {
-              "buildTarget": "TestLeoBuenasTardes:build:development"
+              "buildTarget": "PracticasWebKarolMojarro:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -97,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "810d3962-731e-4d63-8a6e-6945efb845a2"
   }
 }

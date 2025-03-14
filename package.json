@@ -1,5 +1,5 @@
 {
-  "name": "test-leo-buenas-tardes",
+  "name": "PracticasWebKarolMojarro",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:TestLeoBuenasTardes": "node dist/test-leo-buenas-tardes/server/server.mjs"
+    "serve:ssr:PracticasWebKarolMojarro": "node dist/PracticasWebKarolMojarro/server/server.mjs"
   },
   "private": true,
   "dependencies": {
